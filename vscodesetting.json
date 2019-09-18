@@ -1,0 +1,76 @@
+{
+	"workbench.colorTheme": "Solarized Light",
+	"workbench.settings.editor": "json",
+	"workbench.statusBar.visible": false,
+	"workbench.iconTheme": "vscode-icons",
+	"editor.fontSize": 18,
+	"editor.formatOnSave": true,
+	"editor.detectIndentation": false,
+	"editor.tabSize": 4,
+	"editor.minimap.enabled": false,
+	"editor.insertSpaces": false,
+	"prettier.semi": false,
+	"prettier.tabWidth": 4,
+	"prettier.printWidth": 1000,
+	"eslint.autoFixOnSave": true,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"html",
+		"vue",
+		{
+			"language": "vue",
+			"autoFix": true
+		},
+		{
+			"language": "html",
+			"autoFix": true
+		}
+	],
+	"eslint.options": {
+		"configFile": ".eslintrc.js"
+	},
+	"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+	"fileheader.Author": "HuntingTigerTonight",
+	"fileheader.LastModifiedBy": "HuntingTigerTonight",
+	"px-to-rem.px-per-rem": 75,
+	"vetur.format.defaultFormatter.html": "js-beautify-html",
+	"vetur.format.defaultFormatter.js": "vscode-typescript",
+	"vetur.validation.template": false,
+	"vetur.format.defaultFormatterOptions": {
+		"js-beautify-html": {
+			"wrap_attributes": "auto"
+		},
+		"prettyhtml": {
+			"printWidth": 100,
+			"singleQuote": false,
+			"wrapAttributes": false,
+			"sortAttributes": false
+		}
+	},
+	"[yaml]": {
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4,
+		"editor.autoIndent": true
+	},
+	"window.zoomLevel": 0,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "aeschli.vscode-css-formatter"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"dart.flutterSdkPath": "D:\\Flutter\\flutter",
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	}
+}
